@@ -20,6 +20,12 @@ struct ContentView: View {
         
         // MARK: Modal View Modifier
         ModalModifierTestView()
+        
+        //MARK: - Local Notifications
+//        LocalNotifications()
+        
+        //MARK: - BBC News View Test
+//        BBCNewsView()
     }
 }
 

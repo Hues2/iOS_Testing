@@ -16,6 +16,10 @@
 		2E4CFB4B28ABB47F00C6AF38 /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CFB4A28ABB47E00C6AF38 /* BottomSheet.swift */; };
 		2E4CFB4D28ABB90200C6AF38 /* PopupModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CFB4C28ABB90200C6AF38 /* PopupModal.swift */; };
 		2E4CFB4F28ABC1C500C6AF38 /* ModalViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CFB4E28ABC1C500C6AF38 /* ModalViewModifier.swift */; };
+		2E75B21628AC0C24003A3AEE /* BBCNewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75B21528AC0C24003A3AEE /* BBCNewsView.swift */; };
+		2E75B21928AC0C80003A3AEE /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75B21828AC0C80003A3AEE /* UIApplication.swift */; };
+		2E75B21B28AC0CAE003A3AEE /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75B21A28AC0CAE003A3AEE /* Color.swift */; };
+		2E75B21D28AC2287003A3AEE /* LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75B21C28AC2287003A3AEE /* LocalNotifications.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		2E4CFB4A28ABB47E00C6AF38 /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
 		2E4CFB4C28ABB90200C6AF38 /* PopupModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupModal.swift; sourceTree = "<group>"; };
 		2E4CFB4E28ABC1C500C6AF38 /* ModalViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewModifier.swift; sourceTree = "<group>"; };
+		2E75B21528AC0C24003A3AEE /* BBCNewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBCNewsView.swift; sourceTree = "<group>"; };
+		2E75B21828AC0C80003A3AEE /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		2E75B21A28AC0CAE003A3AEE /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		2E75B21C28AC2287003A3AEE /* LocalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotifications.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +75,12 @@
 				2E4CFB4828ABB19E00C6AF38 /* Popover.swift */,
 				2E4CFB4A28ABB47E00C6AF38 /* BottomSheet.swift */,
 				2E4CFB4C28ABB90200C6AF38 /* PopupModal.swift */,
+				2E4CFB4E28ABC1C500C6AF38 /* ModalViewModifier.swift */,
+				2E75B21528AC0C24003A3AEE /* BBCNewsView.swift */,
+				2E75B21C28AC2287003A3AEE /* LocalNotifications.swift */,
+				2E75B21728AC0C68003A3AEE /* Extensions */,
 				2E4CFB3928AB807B00C6AF38 /* Assets.xcassets */,
 				2E4CFB3B28AB807B00C6AF38 /* Preview Content */,
-				2E4CFB4E28ABC1C500C6AF38 /* ModalViewModifier.swift */,
 			);
 			path = TestingThings;
 			sourceTree = "<group>";
@@ -80,6 +91,15 @@
 				2E4CFB3C28AB807B00C6AF38 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E75B21728AC0C68003A3AEE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2E75B21828AC0C80003A3AEE /* UIApplication.swift */,
+				2E75B21A28AC0CAE003A3AEE /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +172,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E75B21D28AC2287003A3AEE /* LocalNotifications.swift in Sources */,
+				2E75B21928AC0C80003A3AEE /* UIApplication.swift in Sources */,
 				2E4CFB3828AB807900C6AF38 /* ContentView.swift in Sources */,
 				2E4CFB4B28ABB47F00C6AF38 /* BottomSheet.swift in Sources */,
+				2E75B21B28AC0CAE003A3AEE /* Color.swift in Sources */,
 				2E4CFB4428AB809B00C6AF38 /* StarRatingMask.swift in Sources */,
+				2E75B21628AC0C24003A3AEE /* BBCNewsView.swift in Sources */,
 				2E4CFB4F28ABC1C500C6AF38 /* ModalViewModifier.swift in Sources */,
 				2E4CFB3628AB807900C6AF38 /* TestingThingsApp.swift in Sources */,
 				2E4CFB4D28ABB90200C6AF38 /* PopupModal.swift in Sources */,

@@ -17,7 +17,7 @@ struct ModalModifierTestView: View{
     
     var body: some View{
         ZStack{
-            Color.red
+            Color.green
                 .ignoresSafeArea()
             button
         }
@@ -92,9 +92,10 @@ extension ModalViewModifier{
             Spacer()
                 
         }
+        .foregroundColor(.text)
         .frame(maxWidth: .infinity)
         .background(
-            Color.white
+            Color.background
         )
         .cornerRadius(30)
         .ignoresSafeArea(edges: [.bottom])
