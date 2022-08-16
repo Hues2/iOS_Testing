@@ -8,8 +8,37 @@
 import SwiftUI
 
 struct Popover: View {
+    
+    @State var isPresented: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 20){
+            Text("TESTING POPOVERS")
+            Button {
+                isPresented.toggle()
+            } label: {
+                HStack{
+                    Text("Toggle Popover")
+                    Image(systemName: "togglepower")
+                }
+                
+            }
+            
+
+        }
+        .popover(isPresented: $isPresented, attachmentAnchor: .point(.trailing), arrowEdge: .trailing) {
+            VStack {
+                        Text("Today is:")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .padding(.bottom, 20)
+                        
+                        Text("hi")
+                            .font(.title2)
+                    }
+                    .frame(width: 350, height: 200)
+        }
+        
     }
 }
 

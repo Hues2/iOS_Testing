@@ -9,8 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        // MARK: StarRatingMask
+//        StarRatingMask()
+        
+        // MARK: Popover
+//        Popover()
+        
+        // MARK: Popup Modal
+        PopupModal()
     }
 }
 
