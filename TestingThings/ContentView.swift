@@ -16,7 +16,10 @@ struct ContentView: View {
 //        Popover()
         
         // MARK: Popup Modal
-        PopupModal()
+//        PopupModal()
+        
+        // MARK: Modal View Modifier
+        ModalModifierTestView()
     }
 }
 

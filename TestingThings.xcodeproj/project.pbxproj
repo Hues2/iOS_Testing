@@ -15,6 +15,7 @@
 		2E4CFB4928ABB19E00C6AF38 /* Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CFB4828ABB19E00C6AF38 /* Popover.swift */; };
 		2E4CFB4B28ABB47F00C6AF38 /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CFB4A28ABB47E00C6AF38 /* BottomSheet.swift */; };
 		2E4CFB4D28ABB90200C6AF38 /* PopupModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CFB4C28ABB90200C6AF38 /* PopupModal.swift */; };
+		2E4CFB4F28ABC1C500C6AF38 /* ModalViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CFB4E28ABC1C500C6AF38 /* ModalViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		2E4CFB4828ABB19E00C6AF38 /* Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popover.swift; sourceTree = "<group>"; };
 		2E4CFB4A28ABB47E00C6AF38 /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
 		2E4CFB4C28ABB90200C6AF38 /* PopupModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupModal.swift; sourceTree = "<group>"; };
+		2E4CFB4E28ABC1C500C6AF38 /* ModalViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				2E4CFB4C28ABB90200C6AF38 /* PopupModal.swift */,
 				2E4CFB3928AB807B00C6AF38 /* Assets.xcassets */,
 				2E4CFB3B28AB807B00C6AF38 /* Preview Content */,
+				2E4CFB4E28ABC1C500C6AF38 /* ModalViewModifier.swift */,
 			);
 			path = TestingThings;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				2E4CFB3828AB807900C6AF38 /* ContentView.swift in Sources */,
 				2E4CFB4B28ABB47F00C6AF38 /* BottomSheet.swift in Sources */,
 				2E4CFB4428AB809B00C6AF38 /* StarRatingMask.swift in Sources */,
+				2E4CFB4F28ABC1C500C6AF38 /* ModalViewModifier.swift in Sources */,
 				2E4CFB3628AB807900C6AF38 /* TestingThingsApp.swift in Sources */,
 				2E4CFB4D28ABB90200C6AF38 /* PopupModal.swift in Sources */,
 				2E4CFB4928ABB19E00C6AF38 /* Popover.swift in Sources */,

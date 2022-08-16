@@ -16,25 +16,7 @@ struct PopupModal: View {
             Color.green
                 .ignoresSafeArea()
             
-            Button {
-                withAnimation(.spring()){
-                    showModal = true
-                }
-                
-            } label: {
-                HStack {
-                    Text("ADD TO BASKET")
-                    
-                    Image(systemName: "cart.fill")
-                }
-                .padding(7.5)
-            }
-            .font(.title3)
-            .foregroundColor(.white)
-            .background(
-                RoundedRectangle(cornerRadius: 30)
-                    .stroke(.white)
-            )
+            button
 
             
             modal
@@ -75,6 +57,28 @@ extension PopupModal{
         )
         .cornerRadius(30)
         .ignoresSafeArea(edges: [.bottom])
+    }
+    
+    private var button: some View{
+        Button {
+            withAnimation(.spring()){
+                showModal = true
+            }
+            
+        } label: {
+            HStack {
+                Text("ADD TO BASKET")
+                
+                Image(systemName: "cart.fill")
+            }
+            .padding(7.5)
+        }
+        .font(.title3)
+        .foregroundColor(.white)
+        .background(
+            RoundedRectangle(cornerRadius: 30)
+                .stroke(.white)
+        )
     }
 }
 
