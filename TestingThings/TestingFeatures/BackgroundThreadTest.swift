@@ -6,11 +6,13 @@
 //
 
 import SwiftUI
+ 
 
+typealias MyString = String
 
 class BackgroundThreadViewModel: ObservableObject{
     
-    @Published var dataArray: [String] = []
+    @Published var dataArray: [MyString] = []
     
     
     

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2E26849A28AD7B4C008D7C7E /* BackgroundThreadTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E26849928AD7B4C008D7C7E /* BackgroundThreadTest.swift */; };
+		2E26849E28AD8E96008D7C7E /* DoCatchThrowsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E26849D28AD8E96008D7C7E /* DoCatchThrowsTest.swift */; };
+		2E2684A128AD932E008D7C7E /* ProtocolsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2684A028AD932E008D7C7E /* ProtocolsTest.swift */; };
+		2E2684A328ADA19C008D7C7E /* DependencyInjectionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2684A228ADA19C008D7C7E /* DependencyInjectionTest.swift */; };
 		2E4CFB3628AB807900C6AF38 /* TestingThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CFB3528AB807900C6AF38 /* TestingThingsApp.swift */; };
 		2E4CFB3828AB807900C6AF38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CFB3728AB807900C6AF38 /* ContentView.swift */; };
 		2E4CFB3A28AB807B00C6AF38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4CFB3928AB807B00C6AF38 /* Assets.xcassets */; };
@@ -26,6 +29,9 @@
 
 /* Begin PBXFileReference section */
 		2E26849928AD7B4C008D7C7E /* BackgroundThreadTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadTest.swift; sourceTree = "<group>"; };
+		2E26849D28AD8E96008D7C7E /* DoCatchThrowsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchThrowsTest.swift; sourceTree = "<group>"; };
+		2E2684A028AD932E008D7C7E /* ProtocolsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsTest.swift; sourceTree = "<group>"; };
+		2E2684A228ADA19C008D7C7E /* DependencyInjectionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionTest.swift; sourceTree = "<group>"; };
 		2E4CFB3228AB807900C6AF38 /* TestingThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E4CFB3528AB807900C6AF38 /* TestingThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingThingsApp.swift; sourceTree = "<group>"; };
 		2E4CFB3728AB807900C6AF38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +60,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E26849B28AD8DFB008D7C7E /* Concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				2E26849D28AD8E96008D7C7E /* DoCatchThrowsTest.swift */,
+			);
+			path = Concurrency;
+			sourceTree = "<group>";
+		};
+		2E26849C28AD8E0C008D7C7E /* TestingFeatures */ = {
+			isa = PBXGroup;
+			children = (
+				2E4CFB3528AB807900C6AF38 /* TestingThingsApp.swift */,
+				2E4CFB3728AB807900C6AF38 /* ContentView.swift */,
+				2E4CFB4328AB809B00C6AF38 /* StarRatingMask.swift */,
+				2E4CFB4828ABB19E00C6AF38 /* Popover.swift */,
+				2E4CFB4A28ABB47E00C6AF38 /* BottomSheet.swift */,
+				2E4CFB4C28ABB90200C6AF38 /* PopupModal.swift */,
+				2E4CFB4E28ABC1C500C6AF38 /* ModalViewModifier.swift */,
+				2E75B21528AC0C24003A3AEE /* BBCNewsView.swift */,
+				2E75B21C28AC2287003A3AEE /* LocalNotifications.swift */,
+				2EA9D89A28AD3A40007F5774 /* CacheTest.swift */,
+				2E26849928AD7B4C008D7C7E /* BackgroundThreadTest.swift */,
+			);
+			path = TestingFeatures;
+			sourceTree = "<group>";
+		};
+		2E26849F28AD931B008D7C7E /* AdvancedFeatures */ = {
+			isa = PBXGroup;
+			children = (
+				2E2684A028AD932E008D7C7E /* ProtocolsTest.swift */,
+				2E2684A228ADA19C008D7C7E /* DependencyInjectionTest.swift */,
+			);
+			path = AdvancedFeatures;
+			sourceTree = "<group>";
+		};
 		2E4CFB2928AB807900C6AF38 = {
 			isa = PBXGroup;
 			children = (
@@ -73,20 +114,12 @@
 		2E4CFB3428AB807900C6AF38 /* TestingThings */ = {
 			isa = PBXGroup;
 			children = (
-				2E4CFB3528AB807900C6AF38 /* TestingThingsApp.swift */,
-				2E4CFB3728AB807900C6AF38 /* ContentView.swift */,
-				2E4CFB4328AB809B00C6AF38 /* StarRatingMask.swift */,
-				2E4CFB4828ABB19E00C6AF38 /* Popover.swift */,
-				2E4CFB4A28ABB47E00C6AF38 /* BottomSheet.swift */,
-				2E4CFB4C28ABB90200C6AF38 /* PopupModal.swift */,
-				2E4CFB4E28ABC1C500C6AF38 /* ModalViewModifier.swift */,
-				2E75B21528AC0C24003A3AEE /* BBCNewsView.swift */,
-				2E75B21C28AC2287003A3AEE /* LocalNotifications.swift */,
-				2EA9D89A28AD3A40007F5774 /* CacheTest.swift */,
+				2E26849F28AD931B008D7C7E /* AdvancedFeatures */,
+				2E26849B28AD8DFB008D7C7E /* Concurrency */,
+				2E26849C28AD8E0C008D7C7E /* TestingFeatures */,
 				2E75B21728AC0C68003A3AEE /* Extensions */,
 				2E4CFB3928AB807B00C6AF38 /* Assets.xcassets */,
 				2E4CFB3B28AB807B00C6AF38 /* Preview Content */,
-				2E26849928AD7B4C008D7C7E /* BackgroundThreadTest.swift */,
 			);
 			path = TestingThings;
 			sourceTree = "<group>";
@@ -187,7 +220,10 @@
 				2E4CFB4428AB809B00C6AF38 /* StarRatingMask.swift in Sources */,
 				2E75B21628AC0C24003A3AEE /* BBCNewsView.swift in Sources */,
 				2E4CFB4F28ABC1C500C6AF38 /* ModalViewModifier.swift in Sources */,
+				2E26849E28AD8E96008D7C7E /* DoCatchThrowsTest.swift in Sources */,
+				2E2684A328ADA19C008D7C7E /* DependencyInjectionTest.swift in Sources */,
 				2E4CFB3628AB807900C6AF38 /* TestingThingsApp.swift in Sources */,
+				2E2684A128AD932E008D7C7E /* ProtocolsTest.swift in Sources */,
 				2E4CFB4D28ABB90200C6AF38 /* PopupModal.swift in Sources */,
 				2EA9D89B28AD3A40007F5774 /* CacheTest.swift in Sources */,
 				2E4CFB4928ABB19E00C6AF38 /* Popover.swift in Sources */,
