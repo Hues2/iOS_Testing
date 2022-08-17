@@ -26,6 +26,9 @@ struct ContentView: View {
         
         //MARK: - BBC News View Test
 //        BBCNewsView()
+        
+        // MARK: Cache Testing
+        CacheTest()
     }
 }
 
