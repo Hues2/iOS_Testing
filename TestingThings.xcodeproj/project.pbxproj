@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E26849A28AD7B4C008D7C7E /* BackgroundThreadTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E26849928AD7B4C008D7C7E /* BackgroundThreadTest.swift */; };
 		2E4CFB3628AB807900C6AF38 /* TestingThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CFB3528AB807900C6AF38 /* TestingThingsApp.swift */; };
 		2E4CFB3828AB807900C6AF38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CFB3728AB807900C6AF38 /* ContentView.swift */; };
 		2E4CFB3A28AB807B00C6AF38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4CFB3928AB807B00C6AF38 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E26849928AD7B4C008D7C7E /* BackgroundThreadTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadTest.swift; sourceTree = "<group>"; };
 		2E4CFB3228AB807900C6AF38 /* TestingThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E4CFB3528AB807900C6AF38 /* TestingThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingThingsApp.swift; sourceTree = "<group>"; };
 		2E4CFB3728AB807900C6AF38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				2E75B21728AC0C68003A3AEE /* Extensions */,
 				2E4CFB3928AB807B00C6AF38 /* Assets.xcassets */,
 				2E4CFB3B28AB807B00C6AF38 /* Preview Content */,
+				2E26849928AD7B4C008D7C7E /* BackgroundThreadTest.swift */,
 			);
 			path = TestingThings;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E26849A28AD7B4C008D7C7E /* BackgroundThreadTest.swift in Sources */,
 				2E75B21D28AC2287003A3AEE /* LocalNotifications.swift in Sources */,
 				2E75B21928AC0C80003A3AEE /* UIApplication.swift in Sources */,
 				2E4CFB3828AB807900C6AF38 /* ContentView.swift in Sources */,

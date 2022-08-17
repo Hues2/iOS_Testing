@@ -19,7 +19,7 @@ struct ContentView: View {
 //        PopupModal()
         
         // MARK: Modal View Modifier
-        ModalModifierTestView()
+//        ModalModifierTestView()
         
         //MARK: - Local Notifications
 //        LocalNotifications()
@@ -28,7 +28,10 @@ struct ContentView: View {
 //        BBCNewsView()
         
         // MARK: Cache Testing
-        CacheTest()
+//        CacheTest()
+        
+        //MARK: - Background Thread Test
+        BackgroundThreadTest()
     }
 }
 
