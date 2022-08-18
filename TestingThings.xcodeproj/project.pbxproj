@@ -24,6 +24,7 @@
 		2E75B21928AC0C80003A3AEE /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75B21828AC0C80003A3AEE /* UIApplication.swift */; };
 		2E75B21B28AC0CAE003A3AEE /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75B21A28AC0CAE003A3AEE /* Color.swift */; };
 		2E75B21D28AC2287003A3AEE /* LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75B21C28AC2287003A3AEE /* LocalNotifications.swift */; };
+		2E85EEA928AE36BF0053021B /* DownloadImageAsyncTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E85EEA828AE36BF0053021B /* DownloadImageAsyncTest.swift */; };
 		2EA9D89B28AD3A40007F5774 /* CacheTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9D89A28AD3A40007F5774 /* CacheTest.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		2E75B21828AC0C80003A3AEE /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		2E75B21A28AC0CAE003A3AEE /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		2E75B21C28AC2287003A3AEE /* LocalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotifications.swift; sourceTree = "<group>"; };
+		2E85EEA828AE36BF0053021B /* DownloadImageAsyncTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsyncTest.swift; sourceTree = "<group>"; };
 		2EA9D89A28AD3A40007F5774 /* CacheTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				2E26849D28AD8E96008D7C7E /* DoCatchThrowsTest.swift */,
+				2E85EEA828AE36BF0053021B /* DownloadImageAsyncTest.swift */,
 			);
 			path = Concurrency;
 			sourceTree = "<group>";
@@ -71,8 +74,6 @@
 		2E26849C28AD8E0C008D7C7E /* TestingFeatures */ = {
 			isa = PBXGroup;
 			children = (
-				2E4CFB3528AB807900C6AF38 /* TestingThingsApp.swift */,
-				2E4CFB3728AB807900C6AF38 /* ContentView.swift */,
 				2E4CFB4328AB809B00C6AF38 /* StarRatingMask.swift */,
 				2E4CFB4828ABB19E00C6AF38 /* Popover.swift */,
 				2E4CFB4A28ABB47E00C6AF38 /* BottomSheet.swift */,
@@ -114,6 +115,8 @@
 		2E4CFB3428AB807900C6AF38 /* TestingThings */ = {
 			isa = PBXGroup;
 			children = (
+				2E4CFB3528AB807900C6AF38 /* TestingThingsApp.swift */,
+				2E4CFB3728AB807900C6AF38 /* ContentView.swift */,
 				2E26849F28AD931B008D7C7E /* AdvancedFeatures */,
 				2E26849B28AD8DFB008D7C7E /* Concurrency */,
 				2E26849C28AD8E0C008D7C7E /* TestingFeatures */,
@@ -225,6 +228,7 @@
 				2E4CFB3628AB807900C6AF38 /* TestingThingsApp.swift in Sources */,
 				2E2684A128AD932E008D7C7E /* ProtocolsTest.swift in Sources */,
 				2E4CFB4D28ABB90200C6AF38 /* PopupModal.swift in Sources */,
+				2E85EEA928AE36BF0053021B /* DownloadImageAsyncTest.swift in Sources */,
 				2EA9D89B28AD3A40007F5774 /* CacheTest.swift in Sources */,
 				2E4CFB4928ABB19E00C6AF38 /* Popover.swift in Sources */,
 			);
