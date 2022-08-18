@@ -37,7 +37,10 @@ struct ContentView: View {
 //        DownloadImageAsyncTest()
         
         // MARK: Async Await Test
-        AsyncAwaitTest()
+//        AsyncAwaitTest()
+        
+        // MARK: Task Test
+        TaskView()
     }
 }
 
