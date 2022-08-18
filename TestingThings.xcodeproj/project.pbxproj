@@ -25,6 +25,7 @@
 		2E75B21B28AC0CAE003A3AEE /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75B21A28AC0CAE003A3AEE /* Color.swift */; };
 		2E75B21D28AC2287003A3AEE /* LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75B21C28AC2287003A3AEE /* LocalNotifications.swift */; };
 		2E85EEA928AE36BF0053021B /* DownloadImageAsyncTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E85EEA828AE36BF0053021B /* DownloadImageAsyncTest.swift */; };
+		2E85EEAC28AE4D590053021B /* AsyncAwaitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E85EEAB28AE4D590053021B /* AsyncAwaitTest.swift */; };
 		2EA9D89B28AD3A40007F5774 /* CacheTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9D89A28AD3A40007F5774 /* CacheTest.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		2E75B21A28AC0CAE003A3AEE /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		2E75B21C28AC2287003A3AEE /* LocalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotifications.swift; sourceTree = "<group>"; };
 		2E85EEA828AE36BF0053021B /* DownloadImageAsyncTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsyncTest.swift; sourceTree = "<group>"; };
+		2E85EEAB28AE4D590053021B /* AsyncAwaitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitTest.swift; sourceTree = "<group>"; };
 		2EA9D89A28AD3A40007F5774 /* CacheTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +69,7 @@
 			children = (
 				2E26849D28AD8E96008D7C7E /* DoCatchThrowsTest.swift */,
 				2E85EEA828AE36BF0053021B /* DownloadImageAsyncTest.swift */,
+				2E85EEAB28AE4D590053021B /* AsyncAwaitTest.swift */,
 			);
 			path = Concurrency;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				2E26849A28AD7B4C008D7C7E /* BackgroundThreadTest.swift in Sources */,
 				2E75B21D28AC2287003A3AEE /* LocalNotifications.swift in Sources */,
 				2E75B21928AC0C80003A3AEE /* UIApplication.swift in Sources */,
+				2E85EEAC28AE4D590053021B /* AsyncAwaitTest.swift in Sources */,
 				2E4CFB3828AB807900C6AF38 /* ContentView.swift in Sources */,
 				2E4CFB4B28ABB47F00C6AF38 /* BottomSheet.swift in Sources */,
 				2E75B21B28AC0CAE003A3AEE /* Color.swift in Sources */,
