@@ -36,6 +36,7 @@
 		2E9D2A2828B258860061D3F9 /* GenericsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9D2A2728B258860061D3F9 /* GenericsTest.swift */; };
 		2EA9D89B28AD3A40007F5774 /* CacheTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9D89A28AD3A40007F5774 /* CacheTest.swift */; };
 		2EB40FB028AF4F7700B1FD2A /* MatchedGeometryEffectTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB40FAF28AF4F7700B1FD2A /* MatchedGeometryEffectTest.swift */; };
+		2ECCD51828B2CA0F00147E6D /* ViewBuilderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECCD51728B2CA0F00147E6D /* ViewBuilderTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		2E9D2A2728B258860061D3F9 /* GenericsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsTest.swift; sourceTree = "<group>"; };
 		2EA9D89A28AD3A40007F5774 /* CacheTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheTest.swift; sourceTree = "<group>"; };
 		2EB40FAF28AF4F7700B1FD2A /* MatchedGeometryEffectTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectTest.swift; sourceTree = "<group>"; };
+		2ECCD51728B2CA0F00147E6D /* ViewBuilderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				2E806D9C28B18D2700A9604C /* CustomButtonStyleTest.swift */,
 				2E9D2A2528B222A50061D3F9 /* AnyTransitionTest.swift */,
 				2E9D2A2728B258860061D3F9 /* GenericsTest.swift */,
+				2ECCD51728B2CA0F00147E6D /* ViewBuilderTest.swift */,
 			);
 			path = AdvancedFeatures;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				2E85EEAC28AE4D590053021B /* AsyncAwaitTest.swift in Sources */,
 				2E4CFB3828AB807900C6AF38 /* ContentView.swift in Sources */,
 				2E4CFB4B28ABB47F00C6AF38 /* BottomSheet.swift in Sources */,
+				2ECCD51828B2CA0F00147E6D /* ViewBuilderTest.swift in Sources */,
 				2E75B21B28AC0CAE003A3AEE /* Color.swift in Sources */,
 				2E4CFB4428AB809B00C6AF38 /* StarRatingMask.swift in Sources */,
 				2E75B21628AC0C24003A3AEE /* BBCNewsView.swift in Sources */,

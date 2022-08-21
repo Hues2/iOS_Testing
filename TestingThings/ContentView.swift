@@ -43,7 +43,10 @@ struct ContentView: View {
 //        TaskView()
         
         //MARK: - Any Transition Test
-        AnyTransitionTest()
+//        AnyTransitionTest()
+        
+        //MARK: - View Builder Test
+        ViewBuilderTest()
     }
 }
 
