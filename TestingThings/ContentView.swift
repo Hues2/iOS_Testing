@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         // MARK: StarRatingMask
-        StarRatingMask()
+//        StarRatingMask()
         
         // MARK: Popover
 //        Popover()
@@ -41,6 +41,9 @@ struct ContentView: View {
         
         // MARK: Task Test
 //        TaskView()
+        
+        //MARK: - Any Transition Test
+        AnyTransitionTest()
     }
 }
 
