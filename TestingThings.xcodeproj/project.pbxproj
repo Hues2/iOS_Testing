@@ -33,6 +33,7 @@
 		2E85EEAE28AE8BB30053021B /* TaskTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E85EEAD28AE8BB30053021B /* TaskTest.swift */; };
 		2E88FB4128B0B2CC00C19D54 /* AsyncLetTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E88FB4028B0B2CC00C19D54 /* AsyncLetTest.swift */; };
 		2E9D2A2628B222A50061D3F9 /* AnyTransitionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9D2A2528B222A50061D3F9 /* AnyTransitionTest.swift */; };
+		2E9D2A2828B258860061D3F9 /* GenericsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9D2A2728B258860061D3F9 /* GenericsTest.swift */; };
 		2EA9D89B28AD3A40007F5774 /* CacheTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9D89A28AD3A40007F5774 /* CacheTest.swift */; };
 		2EB40FB028AF4F7700B1FD2A /* MatchedGeometryEffectTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB40FAF28AF4F7700B1FD2A /* MatchedGeometryEffectTest.swift */; };
 /* End PBXBuildFile section */
@@ -65,6 +66,7 @@
 		2E85EEAD28AE8BB30053021B /* TaskTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTest.swift; sourceTree = "<group>"; };
 		2E88FB4028B0B2CC00C19D54 /* AsyncLetTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetTest.swift; sourceTree = "<group>"; };
 		2E9D2A2528B222A50061D3F9 /* AnyTransitionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionTest.swift; sourceTree = "<group>"; };
+		2E9D2A2728B258860061D3F9 /* GenericsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsTest.swift; sourceTree = "<group>"; };
 		2EA9D89A28AD3A40007F5774 /* CacheTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheTest.swift; sourceTree = "<group>"; };
 		2EB40FAF28AF4F7700B1FD2A /* MatchedGeometryEffectTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,6 +121,7 @@
 				2E806D9A28B185D800A9604C /* CustomViewModifierTest.swift */,
 				2E806D9C28B18D2700A9604C /* CustomButtonStyleTest.swift */,
 				2E9D2A2528B222A50061D3F9 /* AnyTransitionTest.swift */,
+				2E9D2A2728B258860061D3F9 /* GenericsTest.swift */,
 			);
 			path = AdvancedFeatures;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				2E4CFB4428AB809B00C6AF38 /* StarRatingMask.swift in Sources */,
 				2E75B21628AC0C24003A3AEE /* BBCNewsView.swift in Sources */,
 				2E4CFB4F28ABC1C500C6AF38 /* ModalViewModifier.swift in Sources */,
+				2E9D2A2828B258860061D3F9 /* GenericsTest.swift in Sources */,
 				2E26849E28AD8E96008D7C7E /* DoCatchThrowsTest.swift in Sources */,
 				2E2684A328ADA19C008D7C7E /* DependencyInjectionTest.swift in Sources */,
 				2EB40FB028AF4F7700B1FD2A /* MatchedGeometryEffectTest.swift in Sources */,
