@@ -9,14 +9,39 @@ import SwiftUI
 
 struct StarRatingMask: View {
     
+    @State var isShowingModal: Bool = false
+    
     @State var rating: Int = 0
     
     var body: some View {
         
-        stars
-            .overlay(
-                yellowRectangle.mask(stars)
-            )
+        VStack{
+            Button {
+                withAnimation(.easeInOut(duration: 0.35)){
+                    isShowingModal.toggle()
+                }
+                
+            } label: {
+                Text("TOGGLE MODAL")
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .padding()
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 15)
+                            .stroke(.teal)
+                    )
+            }
+
+            
+            Spacer()
+            
+            stars
+                .overlay(
+                    yellowRectangle.mask(stars)
+                )
+        }
+        .modifier(ModalModifier(isShowingModal: $isShowingModal))
+        
         
     }
 }
@@ -65,5 +90,42 @@ extension StarRatingMask{
 struct StarRatingMask_Previews: PreviewProvider {
     static var previews: some View {
         StarRatingMask()
+    }
+}
+
+
+
+struct ModalModifier: ViewModifier{
+    
+    @Binding var isShowingModal: Bool
+    
+    func body(content: Content) -> some View {
+        ZStack(alignment: .bottom) {
+            content
+                .zIndex(0)
+            if isShowingModal{
+                Modal()
+                    .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height * 0.4)
+                    .transition(.move(edge: .bottom))
+                    .zIndex(1)
+            }
+            
+        }
+    }
+}
+
+
+struct Modal: View{
+    var body: some View{
+        ZStack{
+            Color.green
+                .ignoresSafeArea()
+            
+            VStack{
+                Text("THE MODAL")
+            }
+        }
+        .cornerRadius(15)
+        .ignoresSafeArea()
     }
 }

@@ -49,6 +49,7 @@ extension PopupModal{
             Text("Added to basket!")
                 .font(.title)
             Spacer()
+
                 
         }
         .frame(maxWidth: .infinity)

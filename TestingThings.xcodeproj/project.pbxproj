@@ -24,10 +24,16 @@
 		2E75B21928AC0C80003A3AEE /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75B21828AC0C80003A3AEE /* UIApplication.swift */; };
 		2E75B21B28AC0CAE003A3AEE /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75B21A28AC0CAE003A3AEE /* Color.swift */; };
 		2E75B21D28AC2287003A3AEE /* LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75B21C28AC2287003A3AEE /* LocalNotifications.swift */; };
+		2E806D9728B10C2300A9604C /* TaskGroupTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E806D9628B10C2300A9604C /* TaskGroupTest.swift */; };
+		2E806D9928B1496000A9604C /* ContinuationsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E806D9828B1495F00A9604C /* ContinuationsTest.swift */; };
+		2E806D9B28B185D800A9604C /* CustomViewModifierTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E806D9A28B185D800A9604C /* CustomViewModifierTest.swift */; };
+		2E806D9D28B18D2700A9604C /* CustomButtonStyleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E806D9C28B18D2700A9604C /* CustomButtonStyleTest.swift */; };
 		2E85EEA928AE36BF0053021B /* DownloadImageAsyncTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E85EEA828AE36BF0053021B /* DownloadImageAsyncTest.swift */; };
 		2E85EEAC28AE4D590053021B /* AsyncAwaitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E85EEAB28AE4D590053021B /* AsyncAwaitTest.swift */; };
 		2E85EEAE28AE8BB30053021B /* TaskTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E85EEAD28AE8BB30053021B /* TaskTest.swift */; };
+		2E88FB4128B0B2CC00C19D54 /* AsyncLetTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E88FB4028B0B2CC00C19D54 /* AsyncLetTest.swift */; };
 		2EA9D89B28AD3A40007F5774 /* CacheTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9D89A28AD3A40007F5774 /* CacheTest.swift */; };
+		2EB40FB028AF4F7700B1FD2A /* MatchedGeometryEffectTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB40FAF28AF4F7700B1FD2A /* MatchedGeometryEffectTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,10 +55,16 @@
 		2E75B21828AC0C80003A3AEE /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		2E75B21A28AC0CAE003A3AEE /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		2E75B21C28AC2287003A3AEE /* LocalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotifications.swift; sourceTree = "<group>"; };
+		2E806D9628B10C2300A9604C /* TaskGroupTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupTest.swift; sourceTree = "<group>"; };
+		2E806D9828B1495F00A9604C /* ContinuationsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuationsTest.swift; sourceTree = "<group>"; };
+		2E806D9A28B185D800A9604C /* CustomViewModifierTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifierTest.swift; sourceTree = "<group>"; };
+		2E806D9C28B18D2700A9604C /* CustomButtonStyleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyleTest.swift; sourceTree = "<group>"; };
 		2E85EEA828AE36BF0053021B /* DownloadImageAsyncTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsyncTest.swift; sourceTree = "<group>"; };
 		2E85EEAB28AE4D590053021B /* AsyncAwaitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitTest.swift; sourceTree = "<group>"; };
 		2E85EEAD28AE8BB30053021B /* TaskTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTest.swift; sourceTree = "<group>"; };
+		2E88FB4028B0B2CC00C19D54 /* AsyncLetTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetTest.swift; sourceTree = "<group>"; };
 		2EA9D89A28AD3A40007F5774 /* CacheTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheTest.swift; sourceTree = "<group>"; };
+		2EB40FAF28AF4F7700B1FD2A /* MatchedGeometryEffectTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +85,9 @@
 				2E85EEA828AE36BF0053021B /* DownloadImageAsyncTest.swift */,
 				2E85EEAB28AE4D590053021B /* AsyncAwaitTest.swift */,
 				2E85EEAD28AE8BB30053021B /* TaskTest.swift */,
+				2E88FB4028B0B2CC00C19D54 /* AsyncLetTest.swift */,
+				2E806D9628B10C2300A9604C /* TaskGroupTest.swift */,
+				2E806D9828B1495F00A9604C /* ContinuationsTest.swift */,
 			);
 			path = Concurrency;
 			sourceTree = "<group>";
@@ -98,6 +113,9 @@
 			children = (
 				2E2684A028AD932E008D7C7E /* ProtocolsTest.swift */,
 				2E2684A228ADA19C008D7C7E /* DependencyInjectionTest.swift */,
+				2EB40FAF28AF4F7700B1FD2A /* MatchedGeometryEffectTest.swift */,
+				2E806D9A28B185D800A9604C /* CustomViewModifierTest.swift */,
+				2E806D9C28B18D2700A9604C /* CustomButtonStyleTest.swift */,
 			);
 			path = AdvancedFeatures;
 			sourceTree = "<group>";
@@ -224,6 +242,8 @@
 				2E75B21D28AC2287003A3AEE /* LocalNotifications.swift in Sources */,
 				2E85EEAE28AE8BB30053021B /* TaskTest.swift in Sources */,
 				2E75B21928AC0C80003A3AEE /* UIApplication.swift in Sources */,
+				2E806D9B28B185D800A9604C /* CustomViewModifierTest.swift in Sources */,
+				2E88FB4128B0B2CC00C19D54 /* AsyncLetTest.swift in Sources */,
 				2E85EEAC28AE4D590053021B /* AsyncAwaitTest.swift in Sources */,
 				2E4CFB3828AB807900C6AF38 /* ContentView.swift in Sources */,
 				2E4CFB4B28ABB47F00C6AF38 /* BottomSheet.swift in Sources */,
@@ -233,9 +253,13 @@
 				2E4CFB4F28ABC1C500C6AF38 /* ModalViewModifier.swift in Sources */,
 				2E26849E28AD8E96008D7C7E /* DoCatchThrowsTest.swift in Sources */,
 				2E2684A328ADA19C008D7C7E /* DependencyInjectionTest.swift in Sources */,
+				2EB40FB028AF4F7700B1FD2A /* MatchedGeometryEffectTest.swift in Sources */,
 				2E4CFB3628AB807900C6AF38 /* TestingThingsApp.swift in Sources */,
+				2E806D9928B1496000A9604C /* ContinuationsTest.swift in Sources */,
 				2E2684A128AD932E008D7C7E /* ProtocolsTest.swift in Sources */,
 				2E4CFB4D28ABB90200C6AF38 /* PopupModal.swift in Sources */,
+				2E806D9D28B18D2700A9604C /* CustomButtonStyleTest.swift in Sources */,
+				2E806D9728B10C2300A9604C /* TaskGroupTest.swift in Sources */,
 				2E85EEA928AE36BF0053021B /* DownloadImageAsyncTest.swift in Sources */,
 				2EA9D89B28AD3A40007F5774 /* CacheTest.swift in Sources */,
 				2E4CFB4928ABB19E00C6AF38 /* Popover.swift in Sources */,

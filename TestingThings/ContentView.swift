@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         // MARK: StarRatingMask
-//        StarRatingMask()
+        StarRatingMask()
         
         // MARK: Popover
 //        Popover()
@@ -40,7 +40,7 @@ struct ContentView: View {
 //        AsyncAwaitTest()
         
         // MARK: Task Test
-        TaskView()
+//        TaskView()
     }
 }
 
