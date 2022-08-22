@@ -46,7 +46,10 @@ struct ContentView: View {
 //        AnyTransitionTest()
         
         //MARK: - View Builder Test
-        ViewBuilderTest()
+//        ViewBuilderTest()
+        
+        //MARK: - Custom Tab Bar
+        AppTabBarView()
     }
 }
 
