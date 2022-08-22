@@ -36,6 +36,8 @@
 		2E9D2A2828B258860061D3F9 /* GenericsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9D2A2728B258860061D3F9 /* GenericsTest.swift */; };
 		2EA9D89B28AD3A40007F5774 /* CacheTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9D89A28AD3A40007F5774 /* CacheTest.swift */; };
 		2EB40FB028AF4F7700B1FD2A /* MatchedGeometryEffectTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB40FAF28AF4F7700B1FD2A /* MatchedGeometryEffectTest.swift */; };
+		2EC581E028B3652F00C08257 /* PreferenceKeyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC581DF28B3652F00C08257 /* PreferenceKeyTest.swift */; };
+		2EC581E328B36DC200C08257 /* GeometryPreferenceKeyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC581E228B36DC200C08257 /* GeometryPreferenceKeyTest.swift */; };
 		2ECCD51828B2CA0F00147E6D /* ViewBuilderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECCD51728B2CA0F00147E6D /* ViewBuilderTest.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +72,8 @@
 		2E9D2A2728B258860061D3F9 /* GenericsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsTest.swift; sourceTree = "<group>"; };
 		2EA9D89A28AD3A40007F5774 /* CacheTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheTest.swift; sourceTree = "<group>"; };
 		2EB40FAF28AF4F7700B1FD2A /* MatchedGeometryEffectTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectTest.swift; sourceTree = "<group>"; };
+		2EC581DF28B3652F00C08257 /* PreferenceKeyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyTest.swift; sourceTree = "<group>"; };
+		2EC581E228B36DC200C08257 /* GeometryPreferenceKeyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKeyTest.swift; sourceTree = "<group>"; };
 		2ECCD51728B2CA0F00147E6D /* ViewBuilderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +121,7 @@
 		2E26849F28AD931B008D7C7E /* AdvancedFeatures */ = {
 			isa = PBXGroup;
 			children = (
+				2EC581E128B36DA600C08257 /* PreferenceKeyTests */,
 				2E2684A028AD932E008D7C7E /* ProtocolsTest.swift */,
 				2E2684A228ADA19C008D7C7E /* DependencyInjectionTest.swift */,
 				2EB40FAF28AF4F7700B1FD2A /* MatchedGeometryEffectTest.swift */,
@@ -175,6 +180,15 @@
 				2E75B21A28AC0CAE003A3AEE /* Color.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2EC581E128B36DA600C08257 /* PreferenceKeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EC581DF28B3652F00C08257 /* PreferenceKeyTest.swift */,
+				2EC581E228B36DC200C08257 /* GeometryPreferenceKeyTest.swift */,
+			);
+			path = PreferenceKeyTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +285,9 @@
 				2E2684A128AD932E008D7C7E /* ProtocolsTest.swift in Sources */,
 				2E4CFB4D28ABB90200C6AF38 /* PopupModal.swift in Sources */,
 				2E806D9D28B18D2700A9604C /* CustomButtonStyleTest.swift in Sources */,
+				2EC581E028B3652F00C08257 /* PreferenceKeyTest.swift in Sources */,
 				2E806D9728B10C2300A9604C /* TaskGroupTest.swift in Sources */,
+				2EC581E328B36DC200C08257 /* GeometryPreferenceKeyTest.swift in Sources */,
 				2E85EEA928AE36BF0053021B /* DownloadImageAsyncTest.swift in Sources */,
 				2EA9D89B28AD3A40007F5774 /* CacheTest.swift in Sources */,
 				2E4CFB4928ABB19E00C6AF38 /* Popover.swift in Sources */,
