@@ -49,7 +49,10 @@ struct ContentView: View {
 //        ViewBuilderTest()
         
         //MARK: - Custom Tab Bar
-        AppTabBarView()
+//        AppTabBarView()
+        
+        // MARK: My Custom Tab Bar
+        MyCustomTabViewTest()
     }
 }
 

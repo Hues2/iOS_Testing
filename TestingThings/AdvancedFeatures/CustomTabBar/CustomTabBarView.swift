@@ -61,7 +61,8 @@ extension CustomTabBarView{
             ForEach(tabs, id:\.self){ tab in
                 tabView(tab: tab)
                     .onTapGesture {
-                        switchToTab(tab: tab)
+//                        switchToTab(tab: tab)
+                        selection = tab
                     }
             }
         }
