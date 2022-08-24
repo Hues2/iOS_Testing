@@ -50,6 +50,7 @@
 		2EC581E028B3652F00C08257 /* PreferenceKeyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC581DF28B3652F00C08257 /* PreferenceKeyTest.swift */; };
 		2EC581E328B36DC200C08257 /* GeometryPreferenceKeyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC581E228B36DC200C08257 /* GeometryPreferenceKeyTest.swift */; };
 		2ECCD51828B2CA0F00147E6D /* ViewBuilderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECCD51728B2CA0F00147E6D /* ViewBuilderTest.swift */; };
+		2ED56ECA28B60F3F00700D3D /* AdvancedCombineTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED56EC928B60F3F00700D3D /* AdvancedCombineTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +98,7 @@
 		2EC581DF28B3652F00C08257 /* PreferenceKeyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyTest.swift; sourceTree = "<group>"; };
 		2EC581E228B36DC200C08257 /* GeometryPreferenceKeyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKeyTest.swift; sourceTree = "<group>"; };
 		2ECCD51728B2CA0F00147E6D /* ViewBuilderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderTest.swift; sourceTree = "<group>"; };
+		2ED56EC928B60F3F00700D3D /* AdvancedCombineTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCombineTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 		2E26849F28AD931B008D7C7E /* AdvancedFeatures */ = {
 			isa = PBXGroup;
 			children = (
+				2ED56EC628B60EB500700D3D /* Advanced_Combine */,
 				2E56033528B4C2060092D4C1 /* MyCustomTabBar */,
 				2E0E537428B3FEC100FA351F /* CustomTabBar */,
 				2EC581E128B36DA600C08257 /* PreferenceKeyTests */,
@@ -238,6 +241,14 @@
 				2EC581E228B36DC200C08257 /* GeometryPreferenceKeyTest.swift */,
 			);
 			path = PreferenceKeyTests;
+			sourceTree = "<group>";
+		};
+		2ED56EC628B60EB500700D3D /* Advanced_Combine */ = {
+			isa = PBXGroup;
+			children = (
+				2ED56EC928B60F3F00700D3D /* AdvancedCombineTest.swift */,
+			);
+			path = Advanced_Combine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,6 +348,7 @@
 				2E2684A328ADA19C008D7C7E /* DependencyInjectionTest.swift in Sources */,
 				2E0E537828B4005500FA351F /* CustomTabBarView.swift in Sources */,
 				2EB40FB028AF4F7700B1FD2A /* MatchedGeometryEffectTest.swift in Sources */,
+				2ED56ECA28B60F3F00700D3D /* AdvancedCombineTest.swift in Sources */,
 				2E4CFB3628AB807900C6AF38 /* TestingThingsApp.swift in Sources */,
 				2E806D9928B1496000A9604C /* ContinuationsTest.swift in Sources */,
 				2E2684A128AD932E008D7C7E /* ProtocolsTest.swift in Sources */,
