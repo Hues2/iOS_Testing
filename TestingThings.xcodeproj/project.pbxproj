@@ -47,11 +47,27 @@
 		2E9D2A2828B258860061D3F9 /* GenericsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9D2A2728B258860061D3F9 /* GenericsTest.swift */; };
 		2EA9D89B28AD3A40007F5774 /* CacheTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9D89A28AD3A40007F5774 /* CacheTest.swift */; };
 		2EB40FB028AF4F7700B1FD2A /* MatchedGeometryEffectTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB40FAF28AF4F7700B1FD2A /* MatchedGeometryEffectTest.swift */; };
+		2EBD5EB928B6AAF900344225 /* UnitTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBD5EB828B6AAF900344225 /* UnitTestView.swift */; };
+		2EBD5EBB28B6AD3100344225 /* UnitTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBD5EBA28B6AD3100344225 /* UnitTestViewModel.swift */; };
+		2EBD5EC328B6ADF900344225 /* TestingThings_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBD5EC228B6ADF900344225 /* TestingThings_Tests.swift */; };
+		2EBD5ECA28B6AF1400344225 /* UnitTestingViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBD5EC928B6AF1400344225 /* UnitTestingViewModel_Tests.swift */; };
+		2EBD5ECC28B6DD6800344225 /* NewMockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBD5ECB28B6DD6800344225 /* NewMockDataService.swift */; };
+		2EBD5ECE28B6DDAD00344225 /* NewMockDataService_tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBD5ECD28B6DDAD00344225 /* NewMockDataService_tests.swift */; };
 		2EC581E028B3652F00C08257 /* PreferenceKeyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC581DF28B3652F00C08257 /* PreferenceKeyTest.swift */; };
 		2EC581E328B36DC200C08257 /* GeometryPreferenceKeyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC581E228B36DC200C08257 /* GeometryPreferenceKeyTest.swift */; };
 		2ECCD51828B2CA0F00147E6D /* ViewBuilderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECCD51728B2CA0F00147E6D /* ViewBuilderTest.swift */; };
 		2ED56ECA28B60F3F00700D3D /* AdvancedCombineTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED56EC928B60F3F00700D3D /* AdvancedCombineTest.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EBD5EC428B6ADF900344225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E4CFB2A28AB807900C6AF38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4CFB3128AB807900C6AF38;
+			remoteInfo = TestingThings;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2E0E537528B3FED400FA351F /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
@@ -95,6 +111,13 @@
 		2E9D2A2728B258860061D3F9 /* GenericsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsTest.swift; sourceTree = "<group>"; };
 		2EA9D89A28AD3A40007F5774 /* CacheTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheTest.swift; sourceTree = "<group>"; };
 		2EB40FAF28AF4F7700B1FD2A /* MatchedGeometryEffectTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectTest.swift; sourceTree = "<group>"; };
+		2EBD5EB828B6AAF900344225 /* UnitTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestView.swift; sourceTree = "<group>"; };
+		2EBD5EBA28B6AD3100344225 /* UnitTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestViewModel.swift; sourceTree = "<group>"; };
+		2EBD5EC028B6ADF900344225 /* TestingThings_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingThings_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EBD5EC228B6ADF900344225 /* TestingThings_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingThings_Tests.swift; sourceTree = "<group>"; };
+		2EBD5EC928B6AF1400344225 /* UnitTestingViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingViewModel_Tests.swift; sourceTree = "<group>"; };
+		2EBD5ECB28B6DD6800344225 /* NewMockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService.swift; sourceTree = "<group>"; };
+		2EBD5ECD28B6DDAD00344225 /* NewMockDataService_tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService_tests.swift; sourceTree = "<group>"; };
 		2EC581DF28B3652F00C08257 /* PreferenceKeyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyTest.swift; sourceTree = "<group>"; };
 		2EC581E228B36DC200C08257 /* GeometryPreferenceKeyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKeyTest.swift; sourceTree = "<group>"; };
 		2ECCD51728B2CA0F00147E6D /* ViewBuilderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderTest.swift; sourceTree = "<group>"; };
@@ -103,6 +126,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		2E4CFB2F28AB807900C6AF38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EBD5EBD28B6ADF900344225 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -157,6 +187,7 @@
 		2E26849F28AD931B008D7C7E /* AdvancedFeatures */ = {
 			isa = PBXGroup;
 			children = (
+				2EBD5EB728B6AA8F00344225 /* UnitTest */,
 				2ED56EC628B60EB500700D3D /* Advanced_Combine */,
 				2E56033528B4C2060092D4C1 /* MyCustomTabBar */,
 				2E0E537428B3FEC100FA351F /* CustomTabBar */,
@@ -177,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				2E4CFB3428AB807900C6AF38 /* TestingThings */,
+				2EBD5EC128B6ADF900344225 /* TestingThings_Tests */,
 				2E4CFB3328AB807900C6AF38 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -185,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				2E4CFB3228AB807900C6AF38 /* TestingThings.app */,
+				2EBD5EC028B6ADF900344225 /* TestingThings_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -234,6 +267,26 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		2EBD5EB728B6AA8F00344225 /* UnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				2EBD5EB828B6AAF900344225 /* UnitTestView.swift */,
+				2EBD5EBA28B6AD3100344225 /* UnitTestViewModel.swift */,
+				2EBD5ECB28B6DD6800344225 /* NewMockDataService.swift */,
+			);
+			path = UnitTest;
+			sourceTree = "<group>";
+		};
+		2EBD5EC128B6ADF900344225 /* TestingThings_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2EBD5EC228B6ADF900344225 /* TestingThings_Tests.swift */,
+				2EBD5EC928B6AF1400344225 /* UnitTestingViewModel_Tests.swift */,
+				2EBD5ECD28B6DDAD00344225 /* NewMockDataService_tests.swift */,
+			);
+			path = TestingThings_Tests;
+			sourceTree = "<group>";
+		};
 		2EC581E128B36DA600C08257 /* PreferenceKeyTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,6 +324,24 @@
 			productReference = 2E4CFB3228AB807900C6AF38 /* TestingThings.app */;
 			productType = "com.apple.product-type.application";
 		};
+		2EBD5EBF28B6ADF900344225 /* TestingThings_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EBD5EC628B6ADF900344225 /* Build configuration list for PBXNativeTarget "TestingThings_Tests" */;
+			buildPhases = (
+				2EBD5EBC28B6ADF900344225 /* Sources */,
+				2EBD5EBD28B6ADF900344225 /* Frameworks */,
+				2EBD5EBE28B6ADF900344225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EBD5EC528B6ADF900344225 /* PBXTargetDependency */,
+			);
+			name = TestingThings_Tests;
+			productName = TestingThings_Tests;
+			productReference = 2EBD5EC028B6ADF900344225 /* TestingThings_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -283,6 +354,10 @@
 				TargetAttributes = {
 					2E4CFB3128AB807900C6AF38 = {
 						CreatedOnToolsVersion = 13.4.1;
+					};
+					2EBD5EBF28B6ADF900344225 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2E4CFB3128AB807900C6AF38;
 					};
 				};
 			};
@@ -300,6 +375,7 @@
 			projectRoot = "";
 			targets = (
 				2E4CFB3128AB807900C6AF38 /* TestingThings */,
+				2EBD5EBF28B6ADF900344225 /* TestingThings_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -311,6 +387,13 @@
 			files = (
 				2E4CFB3D28AB807B00C6AF38 /* Preview Assets.xcassets in Resources */,
 				2E4CFB3A28AB807B00C6AF38 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EBD5EBE28B6ADF900344225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,10 +412,12 @@
 				2E806D9B28B185D800A9604C /* CustomViewModifierTest.swift in Sources */,
 				2E88FB4128B0B2CC00C19D54 /* AsyncLetTest.swift in Sources */,
 				2E85EEAC28AE4D590053021B /* AsyncAwaitTest.swift in Sources */,
+				2EBD5EB928B6AAF900344225 /* UnitTestView.swift in Sources */,
 				2E56033D28B4CAEB0092D4C1 /* MyCustomTabView.swift in Sources */,
 				2E4CFB3828AB807900C6AF38 /* ContentView.swift in Sources */,
 				2E56034128B4CC8F0092D4C1 /* MyCustomTabBarItemsPreferenceKey.swift in Sources */,
 				2E4CFB4B28ABB47F00C6AF38 /* BottomSheet.swift in Sources */,
+				2EBD5ECC28B6DD6800344225 /* NewMockDataService.swift in Sources */,
 				2ECCD51828B2CA0F00147E6D /* ViewBuilderTest.swift in Sources */,
 				2E0E537628B3FED400FA351F /* AppTabBarView.swift in Sources */,
 				2E75B21B28AC0CAE003A3AEE /* Color.swift in Sources */,
@@ -350,6 +435,7 @@
 				2EB40FB028AF4F7700B1FD2A /* MatchedGeometryEffectTest.swift in Sources */,
 				2ED56ECA28B60F3F00700D3D /* AdvancedCombineTest.swift in Sources */,
 				2E4CFB3628AB807900C6AF38 /* TestingThingsApp.swift in Sources */,
+				2EBD5EBB28B6AD3100344225 /* UnitTestViewModel.swift in Sources */,
 				2E806D9928B1496000A9604C /* ContinuationsTest.swift in Sources */,
 				2E2684A128AD932E008D7C7E /* ProtocolsTest.swift in Sources */,
 				2E4CFB4D28ABB90200C6AF38 /* PopupModal.swift in Sources */,
@@ -366,7 +452,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2EBD5EBC28B6ADF900344225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBD5ECA28B6AF1400344225 /* UnitTestingViewModel_Tests.swift in Sources */,
+				2EBD5EC328B6ADF900344225 /* TestingThings_Tests.swift in Sources */,
+				2EBD5ECE28B6DDAD00344225 /* NewMockDataService_tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EBD5EC528B6ADF900344225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E4CFB3128AB807900C6AF38 /* TestingThings */;
+			targetProxy = 2EBD5EC428B6ADF900344225 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2E4CFB3E28AB807B00C6AF38 /* Debug */ = {
@@ -541,6 +645,42 @@
 			};
 			name = Release;
 		};
+		2EBD5EC728B6ADF900344225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UD7DDMT4QH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.greg-ross-testing-things.TestingThings-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestingThings.app/TestingThings";
+			};
+			name = Debug;
+		};
+		2EBD5EC828B6ADF900344225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UD7DDMT4QH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.greg-ross-testing-things.TestingThings-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestingThings.app/TestingThings";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -558,6 +698,15 @@
 			buildConfigurations = (
 				2E4CFB4128AB807B00C6AF38 /* Debug */,
 				2E4CFB4228AB807B00C6AF38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EBD5EC628B6ADF900344225 /* Build configuration list for PBXNativeTarget "TestingThings_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EBD5EC728B6ADF900344225 /* Debug */,
+				2EBD5EC828B6ADF900344225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
