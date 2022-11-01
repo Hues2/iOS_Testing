@@ -52,7 +52,10 @@ struct ContentView: View {
 //        AppTabBarView()
         
         // MARK: My Custom Tab Bar
-        MyCustomTabViewTest()
+//        MyCustomTabViewTest()
+        
+        // MARK: Bar Chart
+        ChartView()
     }
 }
 

@@ -32,6 +32,7 @@
 		2E56033D28B4CAEB0092D4C1 /* MyCustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56033C28B4CAEB0092D4C1 /* MyCustomTabView.swift */; };
 		2E56033F28B4CC000092D4C1 /* MyCustomTabViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56033E28B4CC000092D4C1 /* MyCustomTabViewTest.swift */; };
 		2E56034128B4CC8F0092D4C1 /* MyCustomTabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56034028B4CC8F0092D4C1 /* MyCustomTabBarItemsPreferenceKey.swift */; };
+		2E647C7C29118C31008D35DB /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E647C7B29118C31008D35DB /* ChartView.swift */; };
 		2E75B21628AC0C24003A3AEE /* BBCNewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75B21528AC0C24003A3AEE /* BBCNewsView.swift */; };
 		2E75B21928AC0C80003A3AEE /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75B21828AC0C80003A3AEE /* UIApplication.swift */; };
 		2E75B21B28AC0CAE003A3AEE /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75B21A28AC0CAE003A3AEE /* Color.swift */; };
@@ -97,6 +98,7 @@
 		2E56033C28B4CAEB0092D4C1 /* MyCustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTabView.swift; sourceTree = "<group>"; };
 		2E56033E28B4CC000092D4C1 /* MyCustomTabViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTabViewTest.swift; sourceTree = "<group>"; };
 		2E56034028B4CC8F0092D4C1 /* MyCustomTabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
+		2E647C7B29118C31008D35DB /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		2E75B21528AC0C24003A3AEE /* BBCNewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBCNewsView.swift; sourceTree = "<group>"; };
 		2E75B21828AC0C80003A3AEE /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		2E75B21A28AC0CAE003A3AEE /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				2E75B21C28AC2287003A3AEE /* LocalNotifications.swift */,
 				2EA9D89A28AD3A40007F5774 /* CacheTest.swift */,
 				2E26849928AD7B4C008D7C7E /* BackgroundThreadTest.swift */,
+				2E647C7B29118C31008D35DB /* ChartView.swift */,
 			);
 			path = TestingFeatures;
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 				2E75B21928AC0C80003A3AEE /* UIApplication.swift in Sources */,
 				2E806D9B28B185D800A9604C /* CustomViewModifierTest.swift in Sources */,
 				2E88FB4128B0B2CC00C19D54 /* AsyncLetTest.swift in Sources */,
+				2E647C7C29118C31008D35DB /* ChartView.swift in Sources */,
 				2E85EEAC28AE4D590053021B /* AsyncAwaitTest.swift in Sources */,
 				2EBD5EB928B6AAF900344225 /* UnitTestView.swift in Sources */,
 				2E56033D28B4CAEB0092D4C1 /* MyCustomTabView.swift in Sources */,
@@ -607,6 +611,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -636,6 +641,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
