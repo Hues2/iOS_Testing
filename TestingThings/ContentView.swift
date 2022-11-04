@@ -55,7 +55,10 @@ struct ContentView: View {
 //        MyCustomTabViewTest()
         
         // MARK: Bar Chart
-        ChartView()
+//        ChartView()
+        
+        // MARK: Animated Textfield / FocusState
+        TextfieldAnimation()
     }
 }
 

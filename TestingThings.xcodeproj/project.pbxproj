@@ -26,6 +26,8 @@
 		2E4CFB4B28ABB47F00C6AF38 /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CFB4A28ABB47E00C6AF38 /* BottomSheet.swift */; };
 		2E4CFB4D28ABB90200C6AF38 /* PopupModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CFB4C28ABB90200C6AF38 /* PopupModal.swift */; };
 		2E4CFB4F28ABC1C500C6AF38 /* ModalViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CFB4E28ABC1C500C6AF38 /* ModalViewModifier.swift */; };
+		2E53D2C0291545FA00FD5E92 /* AnimatedBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E53D2BF291545FA00FD5E92 /* AnimatedBorder.swift */; };
+		2E53D2C22915464E00FD5E92 /* TextfieldAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E53D2C12915464E00FD5E92 /* TextfieldAnimation.swift */; };
 		2E56033728B4C2740092D4C1 /* MyTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56033628B4C2740092D4C1 /* MyTabItemView.swift */; };
 		2E56033928B4C32F0092D4C1 /* MyTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56033828B4C32F0092D4C1 /* MyTabItem.swift */; };
 		2E56033B28B4C4B80092D4C1 /* MyCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56033A28B4C4B80092D4C1 /* MyCustomTabBar.swift */; };
@@ -92,6 +94,8 @@
 		2E4CFB4A28ABB47E00C6AF38 /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
 		2E4CFB4C28ABB90200C6AF38 /* PopupModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupModal.swift; sourceTree = "<group>"; };
 		2E4CFB4E28ABC1C500C6AF38 /* ModalViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewModifier.swift; sourceTree = "<group>"; };
+		2E53D2BF291545FA00FD5E92 /* AnimatedBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBorder.swift; sourceTree = "<group>"; };
+		2E53D2C12915464E00FD5E92 /* TextfieldAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldAnimation.swift; sourceTree = "<group>"; };
 		2E56033628B4C2740092D4C1 /* MyTabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabItemView.swift; sourceTree = "<group>"; };
 		2E56033828B4C32F0092D4C1 /* MyTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabItem.swift; sourceTree = "<group>"; };
 		2E56033A28B4C4B80092D4C1 /* MyCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTabBar.swift; sourceTree = "<group>"; };
@@ -185,6 +189,8 @@
 				2EA9D89A28AD3A40007F5774 /* CacheTest.swift */,
 				2E26849928AD7B4C008D7C7E /* BackgroundThreadTest.swift */,
 				2E647C7B29118C31008D35DB /* ChartView.swift */,
+				2E53D2BF291545FA00FD5E92 /* AnimatedBorder.swift */,
+				2E53D2C12915464E00FD5E92 /* TextfieldAnimation.swift */,
 			);
 			path = TestingFeatures;
 			sourceTree = "<group>";
@@ -426,11 +432,13 @@
 				2E4CFB4B28ABB47F00C6AF38 /* BottomSheet.swift in Sources */,
 				2EBD5ECC28B6DD6800344225 /* NewMockDataService.swift in Sources */,
 				2ECCD51828B2CA0F00147E6D /* ViewBuilderTest.swift in Sources */,
+				2E53D2C0291545FA00FD5E92 /* AnimatedBorder.swift in Sources */,
 				2E0E537628B3FED400FA351F /* AppTabBarView.swift in Sources */,
 				2E75B21B28AC0CAE003A3AEE /* Color.swift in Sources */,
 				2E0E537A28B4048400FA351F /* CustomTabBarContainerView.swift in Sources */,
 				2E56033F28B4CC000092D4C1 /* MyCustomTabViewTest.swift in Sources */,
 				2E4CFB4428AB809B00C6AF38 /* StarRatingMask.swift in Sources */,
+				2E53D2C22915464E00FD5E92 /* TextfieldAnimation.swift in Sources */,
 				2E75B21628AC0C24003A3AEE /* BBCNewsView.swift in Sources */,
 				2E4CFB4F28ABC1C500C6AF38 /* ModalViewModifier.swift in Sources */,
 				2E56033728B4C2740092D4C1 /* MyTabItemView.swift in Sources */,
