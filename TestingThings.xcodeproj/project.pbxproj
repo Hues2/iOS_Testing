@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E0955EF28CCD6D8002538E9 /* CloudkitUserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0955EE28CCD6D8002538E9 /* CloudkitUserTest.swift */; };
 		2E0E537628B3FED400FA351F /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E537528B3FED400FA351F /* AppTabBarView.swift */; };
 		2E0E537828B4005500FA351F /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E537728B4005500FA351F /* CustomTabBarView.swift */; };
 		2E0E537A28B4048400FA351F /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E537928B4048400FA351F /* CustomTabBarContainerView.swift */; };
@@ -71,6 +72,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E0955EE28CCD6D8002538E9 /* CloudkitUserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudkitUserTest.swift; sourceTree = "<group>"; };
 		2E0E537528B3FED400FA351F /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
 		2E0E537728B4005500FA351F /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		2E0E537928B4048400FA351F /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
@@ -144,6 +146,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E0955ED28CCD1DF002538E9 /* CloudKit */ = {
+			isa = PBXGroup;
+			children = (
+				2E0955EE28CCD6D8002538E9 /* CloudkitUserTest.swift */,
+			);
+			path = CloudKit;
+			sourceTree = "<group>";
+		};
 		2E0E537428B3FEC100FA351F /* CustomTabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +199,7 @@
 		2E26849F28AD931B008D7C7E /* AdvancedFeatures */ = {
 			isa = PBXGroup;
 			children = (
+				2E0955ED28CCD1DF002538E9 /* CloudKit */,
 				2EBD5EB728B6AA8F00344225 /* UnitTest */,
 				2ED56EC628B60EB500700D3D /* Advanced_Combine */,
 				2E56033528B4C2060092D4C1 /* MyCustomTabBar */,
@@ -430,6 +441,7 @@
 				2E75B21628AC0C24003A3AEE /* BBCNewsView.swift in Sources */,
 				2E4CFB4F28ABC1C500C6AF38 /* ModalViewModifier.swift in Sources */,
 				2E56033728B4C2740092D4C1 /* MyTabItemView.swift in Sources */,
+				2E0955EF28CCD6D8002538E9 /* CloudkitUserTest.swift in Sources */,
 				2E0E537C28B40A8300FA351F /* TabBarItemsPreferenceKey.swift in Sources */,
 				2E9D2A2828B258860061D3F9 /* GenericsTest.swift in Sources */,
 				2E26849E28AD8E96008D7C7E /* DoCatchThrowsTest.swift in Sources */,
@@ -655,7 +667,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UD7DDMT4QH;
+				DEVELOPMENT_TEAM = FSYW7H5XB9;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.greg-ross-testing-things.TestingThings-Tests";
@@ -673,7 +685,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UD7DDMT4QH;
+				DEVELOPMENT_TEAM = FSYW7H5XB9;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.greg-ross-testing-things.TestingThings-Tests";
