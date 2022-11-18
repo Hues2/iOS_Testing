@@ -27,12 +27,15 @@
 		2E4CFB4B28ABB47F00C6AF38 /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CFB4A28ABB47E00C6AF38 /* BottomSheet.swift */; };
 		2E4CFB4D28ABB90200C6AF38 /* PopupModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CFB4C28ABB90200C6AF38 /* PopupModal.swift */; };
 		2E4CFB4F28ABC1C500C6AF38 /* ModalViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CFB4E28ABC1C500C6AF38 /* ModalViewModifier.swift */; };
+		2E53D2C0291545FA00FD5E92 /* AnimatedBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E53D2BF291545FA00FD5E92 /* AnimatedBorder.swift */; };
+		2E53D2C22915464E00FD5E92 /* TextfieldAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E53D2C12915464E00FD5E92 /* TextfieldAnimation.swift */; };
 		2E56033728B4C2740092D4C1 /* MyTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56033628B4C2740092D4C1 /* MyTabItemView.swift */; };
 		2E56033928B4C32F0092D4C1 /* MyTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56033828B4C32F0092D4C1 /* MyTabItem.swift */; };
 		2E56033B28B4C4B80092D4C1 /* MyCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56033A28B4C4B80092D4C1 /* MyCustomTabBar.swift */; };
 		2E56033D28B4CAEB0092D4C1 /* MyCustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56033C28B4CAEB0092D4C1 /* MyCustomTabView.swift */; };
 		2E56033F28B4CC000092D4C1 /* MyCustomTabViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56033E28B4CC000092D4C1 /* MyCustomTabViewTest.swift */; };
 		2E56034128B4CC8F0092D4C1 /* MyCustomTabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56034028B4CC8F0092D4C1 /* MyCustomTabBarItemsPreferenceKey.swift */; };
+		2E647C7C29118C31008D35DB /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E647C7B29118C31008D35DB /* ChartView.swift */; };
 		2E75B21628AC0C24003A3AEE /* BBCNewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75B21528AC0C24003A3AEE /* BBCNewsView.swift */; };
 		2E75B21928AC0C80003A3AEE /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75B21828AC0C80003A3AEE /* UIApplication.swift */; };
 		2E75B21B28AC0CAE003A3AEE /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75B21A28AC0CAE003A3AEE /* Color.swift */; };
@@ -93,12 +96,15 @@
 		2E4CFB4A28ABB47E00C6AF38 /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
 		2E4CFB4C28ABB90200C6AF38 /* PopupModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupModal.swift; sourceTree = "<group>"; };
 		2E4CFB4E28ABC1C500C6AF38 /* ModalViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewModifier.swift; sourceTree = "<group>"; };
+		2E53D2BF291545FA00FD5E92 /* AnimatedBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBorder.swift; sourceTree = "<group>"; };
+		2E53D2C12915464E00FD5E92 /* TextfieldAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldAnimation.swift; sourceTree = "<group>"; };
 		2E56033628B4C2740092D4C1 /* MyTabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabItemView.swift; sourceTree = "<group>"; };
 		2E56033828B4C32F0092D4C1 /* MyTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabItem.swift; sourceTree = "<group>"; };
 		2E56033A28B4C4B80092D4C1 /* MyCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTabBar.swift; sourceTree = "<group>"; };
 		2E56033C28B4CAEB0092D4C1 /* MyCustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTabView.swift; sourceTree = "<group>"; };
 		2E56033E28B4CC000092D4C1 /* MyCustomTabViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTabViewTest.swift; sourceTree = "<group>"; };
 		2E56034028B4CC8F0092D4C1 /* MyCustomTabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
+		2E647C7B29118C31008D35DB /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		2E75B21528AC0C24003A3AEE /* BBCNewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBCNewsView.swift; sourceTree = "<group>"; };
 		2E75B21828AC0C80003A3AEE /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		2E75B21A28AC0CAE003A3AEE /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -192,6 +198,9 @@
 				2E75B21C28AC2287003A3AEE /* LocalNotifications.swift */,
 				2EA9D89A28AD3A40007F5774 /* CacheTest.swift */,
 				2E26849928AD7B4C008D7C7E /* BackgroundThreadTest.swift */,
+				2E647C7B29118C31008D35DB /* ChartView.swift */,
+				2E53D2BF291545FA00FD5E92 /* AnimatedBorder.swift */,
+				2E53D2C12915464E00FD5E92 /* TextfieldAnimation.swift */,
 			);
 			path = TestingFeatures;
 			sourceTree = "<group>";
@@ -425,6 +434,7 @@
 				2E75B21928AC0C80003A3AEE /* UIApplication.swift in Sources */,
 				2E806D9B28B185D800A9604C /* CustomViewModifierTest.swift in Sources */,
 				2E88FB4128B0B2CC00C19D54 /* AsyncLetTest.swift in Sources */,
+				2E647C7C29118C31008D35DB /* ChartView.swift in Sources */,
 				2E85EEAC28AE4D590053021B /* AsyncAwaitTest.swift in Sources */,
 				2EBD5EB928B6AAF900344225 /* UnitTestView.swift in Sources */,
 				2E56033D28B4CAEB0092D4C1 /* MyCustomTabView.swift in Sources */,
@@ -433,11 +443,13 @@
 				2E4CFB4B28ABB47F00C6AF38 /* BottomSheet.swift in Sources */,
 				2EBD5ECC28B6DD6800344225 /* NewMockDataService.swift in Sources */,
 				2ECCD51828B2CA0F00147E6D /* ViewBuilderTest.swift in Sources */,
+				2E53D2C0291545FA00FD5E92 /* AnimatedBorder.swift in Sources */,
 				2E0E537628B3FED400FA351F /* AppTabBarView.swift in Sources */,
 				2E75B21B28AC0CAE003A3AEE /* Color.swift in Sources */,
 				2E0E537A28B4048400FA351F /* CustomTabBarContainerView.swift in Sources */,
 				2E56033F28B4CC000092D4C1 /* MyCustomTabViewTest.swift in Sources */,
 				2E4CFB4428AB809B00C6AF38 /* StarRatingMask.swift in Sources */,
+				2E53D2C22915464E00FD5E92 /* TextfieldAnimation.swift in Sources */,
 				2E75B21628AC0C24003A3AEE /* BBCNewsView.swift in Sources */,
 				2E4CFB4F28ABC1C500C6AF38 /* ModalViewModifier.swift in Sources */,
 				2E56033728B4C2740092D4C1 /* MyTabItemView.swift in Sources */,
@@ -619,6 +631,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -648,6 +661,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
