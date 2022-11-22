@@ -16,6 +16,7 @@
 		2E26849E28AD8E96008D7C7E /* DoCatchThrowsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E26849D28AD8E96008D7C7E /* DoCatchThrowsTest.swift */; };
 		2E2684A128AD932E008D7C7E /* ProtocolsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2684A028AD932E008D7C7E /* ProtocolsTest.swift */; };
 		2E2684A328ADA19C008D7C7E /* DependencyInjectionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2684A228ADA19C008D7C7E /* DependencyInjectionTest.swift */; };
+		2E39C99B292D03EC008A589A /* SelectRoundedCornersShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E39C99A292D03EC008A589A /* SelectRoundedCornersShape.swift */; };
 		2E44730228B75D3E006E17BA /* FuturePromiseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44730128B75D3E006E17BA /* FuturePromiseTest.swift */; };
 		2E4CFB3628AB807900C6AF38 /* TestingThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CFB3528AB807900C6AF38 /* TestingThingsApp.swift */; };
 		2E4CFB3828AB807900C6AF38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4CFB3728AB807900C6AF38 /* ContentView.swift */; };
@@ -83,6 +84,7 @@
 		2E26849D28AD8E96008D7C7E /* DoCatchThrowsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchThrowsTest.swift; sourceTree = "<group>"; };
 		2E2684A028AD932E008D7C7E /* ProtocolsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsTest.swift; sourceTree = "<group>"; };
 		2E2684A228ADA19C008D7C7E /* DependencyInjectionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionTest.swift; sourceTree = "<group>"; };
+		2E39C99A292D03EC008A589A /* SelectRoundedCornersShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRoundedCornersShape.swift; sourceTree = "<group>"; };
 		2E44730128B75D3E006E17BA /* FuturePromiseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturePromiseTest.swift; sourceTree = "<group>"; };
 		2E4CFB3228AB807900C6AF38 /* TestingThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E4CFB3528AB807900C6AF38 /* TestingThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingThingsApp.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				2E647C7B29118C31008D35DB /* ChartView.swift */,
 				2E53D2BF291545FA00FD5E92 /* AnimatedBorder.swift */,
 				2E53D2C12915464E00FD5E92 /* TextfieldAnimation.swift */,
+				2E39C99A292D03EC008A589A /* SelectRoundedCornersShape.swift */,
 			);
 			path = TestingFeatures;
 			sourceTree = "<group>";
@@ -458,6 +461,7 @@
 				2E56033B28B4C4B80092D4C1 /* MyCustomTabBar.swift in Sources */,
 				2E806D9D28B18D2700A9604C /* CustomButtonStyleTest.swift in Sources */,
 				2EC581E028B3652F00C08257 /* PreferenceKeyTest.swift in Sources */,
+				2E39C99B292D03EC008A589A /* SelectRoundedCornersShape.swift in Sources */,
 				2E806D9728B10C2300A9604C /* TaskGroupTest.swift in Sources */,
 				2EC581E328B36DC200C08257 /* GeometryPreferenceKeyTest.swift in Sources */,
 				2E85EEA928AE36BF0053021B /* DownloadImageAsyncTest.swift in Sources */,

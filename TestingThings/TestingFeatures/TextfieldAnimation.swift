@@ -145,7 +145,7 @@ struct TextfieldAnimation: View {
                         .matchedGeometryEffect(id: "password", in: namespace)
                 }
             }
-            
+
             
             Spacer()
         }
