@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         // MARK: StarRatingMask
-//        StarRatingMask()
+        StarRatingMask()
         
         // MARK: Popover
 //        Popover()
@@ -54,11 +54,7 @@ struct ContentView: View {
         // MARK: My Custom Tab Bar
 //        MyCustomTabViewTest()
         
-        // MARK: Bar Chart
-//        ChartView()
         
-        // MARK: Animated Textfield / FocusState
-        TextfieldAnimation()
     }
 }
 
