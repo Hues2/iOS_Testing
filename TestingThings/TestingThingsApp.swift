@@ -31,7 +31,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
   func application(_ application: UIApplication,
                    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
       
-    FirebaseApp.configure() /// --> Configure Firebase
+      FirebaseApp.configure() /// --> Configure Firebase
       
       Messaging.messaging().delegate = self /// --> Adding the messaging delegate
       
@@ -41,7 +41,8 @@ class AppDelegate: NSObject, UIApplicationDelegate {
       UNUserNotificationCenter.current().requestAuthorization(options: authOptions, completionHandler: {_, _ in }) /// --> Asking the user for permission to send notifications
       
       application.registerForRemoteNotifications()
-
+      UIApplication.shared.applicationIconBadgeNumber = 0
+      
     return true
   }
     
@@ -53,6 +54,13 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         print("\n \(userInfo) \n")
         
         completionHandler(UIBackgroundFetchResult.newData)
+    }
+    
+   
+    func applicationDidBecomeActive(_ application: UIApplication) {
+        print("\n Setting badges to -1 \n")
+        UIApplication.shared.applicationIconBadgeNumber = 0
+        
     }
 }
 
