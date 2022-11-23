@@ -167,6 +167,9 @@ struct StarRatingMask: View {
     var body: some View {
         
         VStack{
+            Button("Crash") {
+              fatalError("Crash was triggered")
+            }
             Button {
                 withAnimation(.easeInOut(duration: 0.35)){
                     isShowingModal.toggle()
